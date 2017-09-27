@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>OS161</title>
+  <meta name="description" content="Operating System project completed for CSE 521 Operating Systems.">
+
+  <link rel="shortcut icon" href="/assets/img/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:400,700|Roboto:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/fonts/font-awesome/css/font-awesome.css">
+  <link rel="stylesheet" href="/assets/stylesheets/dark.css">
+</head>
+
+
+  <body>
+
+    <header class="header">
+  <h1 class="logo">
+    <a href="/" class="logo-link">Muhammed Zaki Bakshi</a>
+  </h1>
+  <nav class="main-menu">
+    <ul>
+      <li><a href="/blog/">Projects</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="page-header">
+  <h1 class="page-title">OS161</h1>
+  <span class="page-list-date">
+    <i class="fa fa-calendar-o" aria-hidden="true"></i> March 8, 2017
+  </span>
+</div>
+<div class="post-container">
+  
+  <div class="post-content">
+    <article>
+      
+      <h1 id="os161">OS161</h1>
+
+<p>This project was a part of the <a href="https://www.ops-class.org/">CSE 521 Operating Systems</a> class at UB. It uses <a href="http://os161.eecs.harvard.edu/">OS161</a> which is a BSD-like simplified system used for teaching. OS/161 includes both a kernel of conventional (“macrokernel”) design and a simple userland, including a variety of test programs. It is written in C and uses (but does not itself include) gcc as its compiler.</p>
+
+<p>The base OS/161 system provides low-level trap and interrupt code, device drivers, in-kernel threads, a baseline scheduler, and an extremely minimal virtual memory system. It also includes a simple skeleton file system and an emulator pass-through file system, with a VFS layer to allow using both at once.</p>
+
+<p>The whole Project is divided into 3 assignments which are as follows:</p>
+
+<p>1) ASST1. Synchronization:
+   OS/161 comes with interrupt handling and semaphores, to complete this assignment we had to implement sleep-locks, condition variables and reader writer locks and use these to solve a couple of synchronization problems.<br />
+   <a href="https://www.ops-class.org/asst/1/">ASST1 Specs</a></p>
+
+<p>2) ASST2. System Calls:
+   OS/161 comes with kernel ABI definitions, but no system call layer. For this assignment we implemented a basic set of File systems calls (open, read, write, dup2, lseek etc.) and Process system calls (fork, execv, waitpit, exit). To implement these we had to add the necessary support infrastructure to the kernel like file table, process table etc.<br />
+   <a href="https://www.ops-class.org/asst/2/">ASST2 Specs</a></p>
+
+<p>3) ASST3. Virtual Memory:
+   The “dumbvm” shipped with OS/161 is only meant to be good enough for bootstrapping the system and doing the early assignments. In this assignment we implemented a virtual memory system which supports a) paging, b) variable segments, heap sizes and stacks sizes. c) swapping.<br />
+   <a href="https://www.ops-class.org/asst/3/">ASST3 Specs</a></p>
+
+<h3 id="source">Source:</h3>
+<p><a href="https://github.com/bakshizaki/os161">Github</a></p>
+
+<h3 id="test161-leaderboard">test161 Leaderboard:</h3>
+<p><a href="https://test161.ops-class.org/leaders">LeaderBoard</a></p>
+
+
+    </article>
+    <div class="post-share">
+  <h5>Share:</h5>
+  
+  <a href="" title="Share on Twitter" onclick="window.open('https://twitter.com/home?status=OS161 - http://localhost:4000/OS161/ by @bakshizaki', 'newwindow', 'width=500, height=225'); return false;" data-turbolinks="false">
+    <i class="fa fa-twitter" aria-hidden="true"></i>
+  </a>
+  <a href="" title="Share on Facebook" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/OS161/', 'newwindow', 'width=500, height=500'); return false;" data-turbolinks="false">
+    <i class="fa fa-facebook" aria-hidden="true"></i>
+  </a>
+  <a href="" title="Share on Google+" onclick="window.open('https://plus.google.com/share?url=http://localhost:4000/OS161/', 'newwindow', 'width=550, height=400'); return false;" data-turbolinks="false">
+    <i class="fa fa-google-plus" aria-hidden="true"></i>
+  </a>
+</div>
+
+    
+
+  </div>
+</div>
+
+      </div>
+    </main>
+
+    <footer class="footer">
+  <p class="copyright">2017 @ Muhammed Zaki Bakshi</p>
+</footer>
+
+    <!-- Main Js -->
+<script src="/assets/js/function.js"></script>
+
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '', 'auto');
+  ga('send', 'pageview');
+</script>
+
+  </body>
+
+</html>

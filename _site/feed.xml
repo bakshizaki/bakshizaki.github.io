@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-09-27T00:54:17-04:00</updated><id>http://localhost:4000/</id><title type="html">Muhammed Zaki Bakshi</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</subtitle><entry><title type="html">eGuru</title><link href="http://localhost:4000/eGuru/" rel="alternate" type="text/html" title="eGuru" /><published>2017-03-09T00:00:00-05:00</published><updated>2017-03-09T00:00:00-05:00</updated><id>http://localhost:4000/eGuru</id><content type="html" xml:base="http://localhost:4000/eGuru/">&lt;h1 id=&quot;eguru&quot;&gt;eGuru&lt;/h1&gt;
+&lt;p&gt;eGuru is a tutoring software made for students of Civil Engineering for the subject of Statics. This project was started as a class project for the course “Software Engineering Concepts” which was later selected by Civil Engineering Department to be further developed under Dr. Andrew Olewnik and Prof. Mettupalayam Sivaselvan.&lt;/p&gt;
+
+&lt;p&gt;The project consists of 3 parts.&lt;br /&gt;
+1) Selection of Assumptions and Reasons:&lt;/p&gt;
+
+&lt;p&gt;In this part students are supposed to read the questions and select appropriate assumptions and reasons by observing real world model and idealized model.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://github.com/bakshizaki/monday/blob/gh-pages/assets/img/eGuru2.png?raw=true&quot; alt=&quot;original&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;2) Selection of Free Body Diagram:&lt;/p&gt;
+
+&lt;p&gt;Now the software asks student to select a valid Free Body Diagram from the idealized model. The way to define a Free Body Diagram is to select the appropriate cuts from the given cuts such that you can solve the problem.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://github.com/bakshizaki/monday/blob/gh-pages/assets/img/eGuru3.png?raw=true&quot; alt=&quot;original&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;3) Selection of Forces:&lt;/p&gt;
+
+&lt;p&gt;After selection Free Body Diagram, now the students have to draw appropriate forces and moments on the selected Free Body Diagram. Forces can be drawn at any angle and moments can be clockwise and anticlockwise. Each of them can be known or unknown. To enable all these varieties we have provided a toolbox using which students can then define forces and moments at given points.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://github.com/bakshizaki/monday/blob/gh-pages/assets/img/eGuru1.png?raw=true&quot; alt=&quot;original&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;source&quot;&gt;Source:&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/amaan-modak/Engineering-Educators&quot;&gt;Github&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">eGuru eGuru is a tutoring software made for students of Civil Engineering for the subject of Statics. This project was started as a class project for the course “Software Engineering Concepts” which was later selected by Civil Engineering Department to be further developed under Dr. Andrew Olewnik and Prof. Mettupalayam Sivaselvan.</summary></entry><entry><title type="html">OS161</title><link href="http://localhost:4000/OS161/" rel="alternate" type="text/html" title="OS161" /><published>2017-03-08T00:00:00-05:00</published><updated>2017-03-08T00:00:00-05:00</updated><id>http://localhost:4000/OS161</id><content type="html" xml:base="http://localhost:4000/OS161/">&lt;h1 id=&quot;os161&quot;&gt;OS161&lt;/h1&gt;
+
+&lt;p&gt;This project was a part of the &lt;a href=&quot;https://www.ops-class.org/&quot;&gt;CSE 521 Operating Systems&lt;/a&gt; class at UB. It uses &lt;a href=&quot;http://os161.eecs.harvard.edu/&quot;&gt;OS161&lt;/a&gt; which is a BSD-like simplified system used for teaching. OS/161 includes both a kernel of conventional (“macrokernel”) design and a simple userland, including a variety of test programs. It is written in C and uses (but does not itself include) gcc as its compiler.&lt;/p&gt;
+
+&lt;p&gt;The base OS/161 system provides low-level trap and interrupt code, device drivers, in-kernel threads, a baseline scheduler, and an extremely minimal virtual memory system. It also includes a simple skeleton file system and an emulator pass-through file system, with a VFS layer to allow using both at once.&lt;/p&gt;
+
+&lt;p&gt;The whole Project is divided into 3 assignments which are as follows:&lt;/p&gt;
+
+&lt;p&gt;1) ASST1. Synchronization:
+   OS/161 comes with interrupt handling and semaphores, to complete this assignment we had to implement sleep-locks, condition variables and reader writer locks and use these to solve a couple of synchronization problems.&lt;br /&gt;
+   &lt;a href=&quot;https://www.ops-class.org/asst/1/&quot;&gt;ASST1 Specs&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;2) ASST2. System Calls:
+   OS/161 comes with kernel ABI definitions, but no system call layer. For this assignment we implemented a basic set of File systems calls (open, read, write, dup2, lseek etc.) and Process system calls (fork, execv, waitpit, exit). To implement these we had to add the necessary support infrastructure to the kernel like file table, process table etc.&lt;br /&gt;
+   &lt;a href=&quot;https://www.ops-class.org/asst/2/&quot;&gt;ASST2 Specs&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;3) ASST3. Virtual Memory:
+   The “dumbvm” shipped with OS/161 is only meant to be good enough for bootstrapping the system and doing the early assignments. In this assignment we implemented a virtual memory system which supports a) paging, b) variable segments, heap sizes and stacks sizes. c) swapping.&lt;br /&gt;
+   &lt;a href=&quot;https://www.ops-class.org/asst/3/&quot;&gt;ASST3 Specs&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;source&quot;&gt;Source:&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/bakshizaki/os161&quot;&gt;Github&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;test161-leaderboard&quot;&gt;test161 Leaderboard:&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://test161.ops-class.org/leaders&quot;&gt;LeaderBoard&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">OS161</summary></entry><entry><title type="html">Gilbarco Eye</title><link href="http://localhost:4000/sample-post-with-all-elements/" rel="alternate" type="text/html" title="Gilbarco Eye" /><published>2017-03-07T00:00:00-05:00</published><updated>2017-03-07T00:00:00-05:00</updated><id>http://localhost:4000/sample-post-with-all-elements</id><content type="html" xml:base="http://localhost:4000/sample-post-with-all-elements/">&lt;h1 id=&quot;gilbarco-eye&quot;&gt;Gilbarco Eye&lt;/h1&gt;
+
+&lt;p&gt;This is an Android application which communicates with embedded hardware via Bluetooth to read data from attached sensors. It has the following features.&lt;br /&gt;
+1) The received data can be seen in graphical format in real time.&lt;br /&gt;
+2) The data can also be recorded in .csv files.&lt;br /&gt;
+3) Recorded csv files can later be loaded for further study.&lt;br /&gt;
+4) Option to select mutiple parameters at once to compare data.&lt;br /&gt;
+5) When connected to internet via WiFi or Mobile Data, received data can be transfered to server for remote monitoring.&lt;/p&gt;
+
+&lt;h3 id=&quot;video--&quot;&gt;Video -&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=_9MkpmT0o2M&quot;&gt;&lt;img src=&quot;https://github.com/bakshizaki/monday/blob/gh-pages/assets/img/gil-eye.png?raw=true&quot; alt=&quot;image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;source&quot;&gt;Source:&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/bakshizaki/Third-Eye&quot;&gt;Github&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;libraries&quot;&gt;Libraries&lt;/h3&gt;
+&lt;p&gt;1) Android Graphview http://www.android-graphview.org/ul&lt;/p&gt;</content><author><name></name></author><summary type="html">Gilbarco Eye</summary></entry><entry><title type="html">Sentinel</title><link href="http://localhost:4000/Sentinel/" rel="alternate" type="text/html" title="Sentinel" /><published>2017-03-07T00:00:00-05:00</published><updated>2017-03-07T00:00:00-05:00</updated><id>http://localhost:4000/Sentinel</id><content type="html" xml:base="http://localhost:4000/Sentinel/">&lt;h1 id=&quot;sentinel&quot;&gt;Sentinel&lt;/h1&gt;
+&lt;p&gt;Sentinel is our project for IndiaHacks:Internet of Things 2016 Hackathon which received 6th place at the competition.&lt;/p&gt;
+
+&lt;p&gt;Sentinel is a system which can be used to remotely monitor a number of industrial machineries.
+It connects the local machine with internet over HTTP to push the pertinent
+parameters to cloud. We have also developed our own scalable cloud application
+which is capable of visual representation of data.&lt;/p&gt;
+
+&lt;h3 id=&quot;building&quot;&gt;Building&lt;/h3&gt;
+&lt;p&gt;Basically Sentinel consists of 3 parts. 1)I-Plus 2)W-Plus 3)Cloud Application&lt;br /&gt;
+1) For I-Plus use Sentinel_Trans.ino&lt;br /&gt;
+2) For W-Plus use Sentinel_Receive.ino&lt;br /&gt;
+3) For Cloud Application use Cloud Application folder&lt;br /&gt;
+4) For I-Plus RFID use HACKER_NEW&lt;/p&gt;
+
+&lt;h2 id=&quot;images&quot;&gt;Images&lt;/h2&gt;
+&lt;p&gt;I-Plus:&lt;br /&gt;
+&lt;img src=&quot;https://github.com/bakshizaki/monday/blob/gh-pages/assets/img/i_plus.jpg?raw=true&quot; alt=&quot;iplus&quot; /&gt;&lt;br /&gt;
+W-Plus:&lt;br /&gt;
+&lt;img src=&quot;https://github.com/bakshizaki/monday/blob/gh-pages/assets/img/w_plus.jpg?raw=true&quot; alt=&quot;wplus&quot; /&gt;&lt;br /&gt;
+Web App:&lt;br /&gt;
+&lt;img src=&quot;https://github.com/bakshizaki/monday/blob/gh-pages/assets/img/web.jpg?raw=true&quot; alt=&quot;web&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;videos&quot;&gt;Videos&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=1LtBvIF2MCU&quot;&gt;Hackathon Submission&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://www.youtube.com/watch?v=yZz5Oyqo77Y&amp;amp;t=0m50s&quot;&gt;Web App&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;source&quot;&gt;Source&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/bakshizaki/Sentinel-Hackathon&quot;&gt;Github&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;libraries&quot;&gt;Libraries&lt;/h3&gt;
+&lt;p&gt;Arduino libararies used for the prject. Thanks to all the contributors&lt;br /&gt;
+1)	RF24 library for NRF24L01. https://github.com/maniacbug/RF24&lt;br /&gt;
+2)	ESPduino library for  ESP8266. https://github.com/tuanpmt/espduino&lt;br /&gt;
+3)	DHT libarary for DHT11. https://github.com/adafruit/DHT-sensor-library&lt;/p&gt;
+
+&lt;h2 id=&quot;hardware-files&quot;&gt;Hardware Files&lt;/h2&gt;
+&lt;p&gt;Hardware schematics are available in Hardware Files.&lt;/p&gt;
+
+&lt;h3 id=&quot;collaborators-&quot;&gt;Collaborators :&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;Muhammed Zaki Bakshi.&lt;/li&gt;
+  &lt;li&gt;Indrajeet Patil.&lt;/li&gt;
+  &lt;li&gt;Pushkar Shirgurkar.&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">Sentinel Sentinel is our project for IndiaHacks:Internet of Things 2016 Hackathon which received 6th place at the competition.</summary></entry><entry><title type="html">FBD Software</title><link href="http://localhost:4000/FBD-Software/" rel="alternate" type="text/html" title="FBD Software" /><published>2017-03-07T00:00:00-05:00</published><updated>2017-03-07T00:00:00-05:00</updated><id>http://localhost:4000/FBD%20Software</id><content type="html" xml:base="http://localhost:4000/FBD-Software/">&lt;p&gt;This software was developed along with eGuru to help instructors easily generate question files required in eGuru.&lt;/p&gt;
+
+&lt;p&gt;It has two modes.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Defining FBD:&lt;br /&gt;
+Here instructors can define an FBD by first defining FBD cuts and then selecting a valid FBD cut. This data can be later saved to a file to be loaded into eGuru.&lt;br /&gt;
+&lt;img src=&quot;https://github.com/bakshizaki/monday/blob/gh-pages/assets/img/fbd1.png?raw=true&quot; alt=&quot;original&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Defining Forces:
+ In this mode instructors can load an image and define correct forces on force points. A toolbox is provided on the side to select different types of forces and moments. After defining these, all the data can be then saved to a file to be loaded into eGuru.&lt;br /&gt;
+&lt;img src=&quot;https://github.com/bakshizaki/monday/blob/gh-pages/assets/img/fbd2.png?raw=true&quot; alt=&quot;original&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;source&quot;&gt;Source:&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/bakshizaki/FBDSoftware&quot;&gt;Github&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">This software was developed along with eGuru to help instructors easily generate question files required in eGuru.</summary></entry><entry><title type="html">Assignment Writer</title><link href="http://localhost:4000/Assignment-Writer/" rel="alternate" type="text/html" title="Assignment Writer" /><published>2017-03-07T00:00:00-05:00</published><updated>2017-03-07T00:00:00-05:00</updated><id>http://localhost:4000/Assignment%20Writer</id><content type="html" xml:base="http://localhost:4000/Assignment-Writer/">&lt;h1 id=&quot;assignment-writer&quot;&gt;Assignment-Writer&lt;/h1&gt;
+&lt;p&gt;A hobby project in progress which started with the idea of capturing handwriting of a person using a smartphone, make it a font and use it to write any given text using an embedded hardware. Inspired from a friend’s idea who wanted a machine which could write his school assignments for him.&lt;/p&gt;
+
+&lt;p&gt;To capture handwriting, a picture of the handwritten alphabets is taken and processed using OpenCV which detects individual alphabets and generates data which can be sent to the hardware to write a particular letter.&lt;br /&gt;
+Original Image:&lt;br /&gt;
+&lt;img src=&quot;https://github.com/bakshizaki/monday/blob/gh-pages/assets/img/alphabets2.jpg?raw=true&quot; alt=&quot;original&quot; /&gt;&lt;br /&gt;
+Screenshots&lt;br /&gt;
+&lt;img src=&quot;https://github.com/bakshizaki/monday/blob/gh-pages/assets/img/initial.png?raw=true&quot; alt=&quot;Initial&quot; style=&quot;width: 200px;&quot; /&gt;
+    &lt;img src=&quot;https://github.com/bakshizaki/monday/blob/gh-pages/assets/img/final.png?raw=true&quot; alt=&quot;Drawing&quot; style=&quot;width: 200px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The application also includes a character recognition activity which utilizes Tesseract OCR engine for character recognition. The generated output can be later used as input text to write in custom font.&lt;br /&gt;
+&lt;img src=&quot;https://github.com/bakshizaki/monday/blob/gh-pages/assets/img/ocr1.png?raw=true&quot; alt=&quot;Drawing&quot; style=&quot;width: 200px;&quot; /&gt;
+    &lt;img src=&quot;https://github.com/bakshizaki/monday/blob/gh-pages/assets/img/ocr2.png?raw=true&quot; alt=&quot;Drawing&quot; style=&quot;width: 200px;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;building&quot;&gt;Building:&lt;/h3&gt;
+&lt;p&gt;For building the project, you would need to add these libraries.&lt;br /&gt;
+1) OpenCV4Android Library OpenCV-2.4.11- android -sdk which is available at&lt;br /&gt;
+https://sourceforge.net/projects/opencvlibrary/files/opencv-android/&lt;br /&gt;
+2) Tesseract OCR Engine for Android available at&lt;br /&gt;
+https://github.com/rmtheis/tess-two&lt;br /&gt;
+3) CropImage library by Lorenzo Villani available at&lt;br /&gt;
+https://github.com/lvillani/android-cropimage&lt;/p&gt;
+
+&lt;h3 id=&quot;source&quot;&gt;Source:&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/bakshizaki/Assignment-Writer&quot;&gt;Github&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Assignment-Writer A hobby project in progress which started with the idea of capturing handwriting of a person using a smartphone, make it a font and use it to write any given text using an embedded hardware. Inspired from a friend’s idea who wanted a machine which could write his school assignments for him.</summary></entry></feed>
